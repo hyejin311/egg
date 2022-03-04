@@ -31,3 +31,5 @@ hr {display:none;}
 /*숨기기*/
 .hideClass{width:1px; height:1px; font-size:0; line-height:0;
             position:absolute; visibility: hidden;}
+
+a{text-decoration: none;}
