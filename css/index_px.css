@@ -19,7 +19,7 @@ visibility: hidden;
 /* layout ->  */
 /* 공통사항 */
 header>div,article>div{
-width:1320px;
+width:98%;/* 1320px; */
 margin:0 auto;
 }
 
@@ -169,11 +169,10 @@ margin-top:20px;
 }
 
 /* box02 */
-#box02{
+#box02{}
 
-}
 #box02>div{
-width:980px;
+width:98%;/* 980px; */
 margin:0 auto;
 /* background-color: green; */
 display:flex;
@@ -182,7 +181,7 @@ justify-content:space-between;
 }
 
 #box02>div>dl{
-width:280px;
+width:27.3469387%;/* 268px; */
 padding:140px 0 54px;
 text-align: center;
 color:#fff;
@@ -209,9 +208,10 @@ background-color: #e8e8e8;}
 #box03>div{}
 
 #box03>div>div{
-width:1100px;
+width:98%;/* 1100px; */
 margin:0 auto;
 /* background-color: green; */
+/* absolute-> px 정리 */
 padding-left: 440px;
 box-sizing: border-box;
 position:relative;
@@ -252,7 +252,7 @@ width:490px;
 }
 
 #box04>div>div>ul{
-width:50%;
+width:74.2424242%;/* 50%; */
 }
 
 #box04>div>div>ul>li{
@@ -290,6 +290,7 @@ background-image: none;}
 /* box05 */
 #box05{
 background-color: #c3c3c3;
+color:#fff;
 text-align:center;
 padding-bottom:30px;
 }
@@ -352,9 +353,10 @@ color:#fff;
 }
 
 #box06>div>div{
-width:1100px;
+width:98%;/* 1100px; */
 margin:0 auto;
 display:flex;
+flex-wrap:wrap;
 }
 
 #box06>div>div>div{
