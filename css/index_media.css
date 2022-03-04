@@ -91,6 +91,10 @@ font-size:50px;
 background-size:auto 100%;
 }
 /* box02 */
+#box02>div{
+justify-content:space-evenly;
+}
+/* box03 */
 }
 /*  */
 
