@@ -96,6 +96,7 @@ nav .close{}
 /* width:auto; */
 height:calc(100vh - 70px);
 position:relative;
+overflow: hidden;
 background: url('../images/green.jpg') no-repeat center;
 }
 
