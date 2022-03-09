@@ -104,14 +104,13 @@ height:calc(100vh - 70px);
 position:relative;
 overflow: hidden;
 background: url('../images/green.jpg') no-repeat center;
-overflow: hidden;
 }
 
 #box01>h2{
+width:679px; height:290px;
+margin:-140px 0 0 -338px;
 position:absolute;
 left:50%; top: 50%;
-margin:-140px 0 0 -338px;
-width:676px; height:280px;
 border:1px solid #fff;
 display:flex;
 flex-wrap:wrap;
@@ -153,7 +152,7 @@ background-color: red;
 
 #box01>.no>a{
 display:inline-block;
-width:20px; height: 20px;
+width:20px; height:20px;
 margin:0 8px;
 border-radius: 50%;
 background-color: #fff;
@@ -189,7 +188,8 @@ justify-content:space-between;
 }
 
 #box02>div>dl{
-width:27.3469387%;/* 268px; */
+width:27.3469387%;
+/* 268px; */
 padding:140px 0 54px;
 text-align: center;
 color:#fff;
@@ -216,13 +216,13 @@ background-color: #e8e8e8;}
 #box03>div{}
 
 #box03>div>div{
+position:relative;
 width:98%;/* 1100px; */
 margin:0 auto;
 /* background-color: green; */
 /* absolute-> px 정리 */
 padding-left: 440px;
 box-sizing: border-box;
-position:relative;
 }
 
 #box03>div>div>figure{
@@ -257,11 +257,11 @@ width:50%;
 
 #box04>div>div>div>.text{
 width:490px;
+/* 74.2424242%; */
 }
 
 #box04>div>div>ul{
-width:74.2424242%;
-/* 50% */
+width:50%;
 }
 
 #box04>div>div>ul>li{

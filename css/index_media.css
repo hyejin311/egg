@@ -368,6 +368,9 @@ width:90vw;
 margin:0 auto;
 display:block;
 }
+
+nav{
+display:none;
 }
 
 nav>ul>li{
@@ -375,19 +378,23 @@ width:100%;
 margin-left:40px;
 border-bottom:1px solid #fff;
 }
+
 nav>ul>li>a{
 line-height:60px;
 }
+
 #btn{
 display:block;
 }
 nav .close{
 display:block;
 }
+
 /* box01 */
 #box01{
 height:100vh;
 }
+
 #box01>h2{
 left:none; top: 50%;
 margin:-140px 0 0 -338px;
@@ -395,22 +402,27 @@ width:100%;
 border:none;
 font-size:50px;
 }
+
 #box01>ul>li{
 background-size:auto 100%;
 }
+
 /* box02 */
 #box02>div{
 justify-content:space-evenly;
 }
+
 /* box03 */
 #box03>div>div{
 padding-left: 0px;
 }
+
 #box03>div>div>figure{
 position:static;
 text-align:center;
 margin-bottom:40px;
 }
+
 #box03 .title{
 text-align: center;
 }
@@ -475,6 +487,7 @@ width:auto;
 width:auto;
 text-align:center;
 }
+
 #box04>div>div>div>.title{
 text-align:center;
 }
