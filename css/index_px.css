@@ -89,7 +89,13 @@ background-color: red;
 display:none;
 }
 
-nav .close{}
+nav .close{
+position:absolute;
+right:20px; top:20px;
+width:30px; height:30px;
+background-color: red;
+display:none;
+}
 
 /* #box01 */
 #box01{
@@ -98,6 +104,7 @@ height:calc(100vh - 70px);
 position:relative;
 overflow: hidden;
 background: url('../images/green.jpg') no-repeat center;
+overflow: hidden;
 }
 
 #box01>h2{
@@ -253,7 +260,8 @@ width:490px;
 }
 
 #box04>div>div>ul{
-width:74.2424242%;/* 50%; */
+width:74.2424242%;
+/* 50% */
 }
 
 #box04>div>div>ul>li{
@@ -272,19 +280,19 @@ background-image: url('../images/icon/javascript.png');}
 #box04>div>div>ul>li:nth-child(4){
 background-image: url('../images/icon/jquery.png');}
 #box04>div>div>ul>li:nth-child(5){
-background-image: url('../images/icon/sass.png');}
-#box04>div>div>ul>li:nth-child(6){
-background-image: url('../images/icon/npm.png');}
-#box04>div>div>ul>li:nth-child(7){
-background-image: url('../images/icon/typescript.png');}
-#box04>div>div>ul>li:nth-child(8){
-background-image: url('../images/icon/vs-code.png');}
-#box04>div>div>ul>li:nth-child(9){
-background-image: url('../images/icon/git.png');}
-#box04>div>div>ul>li:nth-child(10){
 background-image: url('../images/icon/vue.png');}
-#box04>div>div>ul>li:nth-child(11){
+#box04>div>div>ul>li:nth-child(6){
+background-image: url('../images/icon/react.png');}
+#box04>div>div>ul>li:nth-child(7){
 background-image: url('../images/icon/bootstrap.png');}
+#box04>div>div>ul>li:nth-child(8){
+background-image: url('../images/icon/git.png');}
+#box04>div>div>ul>li:nth-child(9){
+background-image: url('../images/icon/npm.png');}
+#box04>div>div>ul>li:nth-child(10){
+background-image: url('../images/icon/typescript.png');}
+#box04>div>div>ul>li:nth-child(11){
+background-image: url('../images/icon/sass.png');}
 #box04>div>div>ul>li:nth-child(12){
 background-image: none;}
 
@@ -348,13 +356,17 @@ margin-bottom:50px;
 background-color:#9c9491;
 color:#fff;
 }
-#box06>a{color:#fff;}
+
+#box06>a{
+color:#fff;
+}
 
 #box06>div{
 }
 
 #box06>div>div{
-width:98%;/* 1100px; */
+width:1100px;
+/* 98% */
 margin:0 auto;
 display:flex;
 flex-wrap:wrap;
@@ -377,10 +389,10 @@ background:url('../images/contact_icon_01.png') no-repeat left center;
 background-size:22px;
 }
 
-#box06>div>div>div dl>dt:nth-child(2)>dt{
+#box06>div>div>div dl:nth-child(2)>dt{
 background-image:url('../images/contact_icon_02.png');
 }
-#box06>div>div>div dl>dt:nth-child(3)>dt{
+#box06>div>div>div dl:nth-child(3)>dt{
 background-image:url('../images/contact_icon_04.png');
 }
 #box06>div>div>div dl>dd{
@@ -406,6 +418,7 @@ padding:20px;
 #box06>div form>fieldset>ul>li{
 margin-bottom:20px;
 }
+
 #box06>div form>fieldset>ul>li>label{
 display:block;
 line-height:1;
